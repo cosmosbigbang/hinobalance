@@ -36,7 +36,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin {
   late TabController _tabController;
-  String apiBaseUrl = 'https://jnext-backend.onrender.com'; // Render 서버
+  String apiBaseUrl = 'https://jnext.onrender.com'; // Render 서버
   
   Map<String, dynamic> draftStats = {};
   Map<String, dynamic> contentStats = {};
