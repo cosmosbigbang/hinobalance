@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: hinobalance-web
+    env: static
+    region: singapore
+    buildCommand: flutter build web --release
+    staticPublishPath: ./build/web
+    envVars:
+      - key: FLUTTER_VERSION
+        value: 3.10.4
